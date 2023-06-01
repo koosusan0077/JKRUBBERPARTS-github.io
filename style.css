@@ -382,6 +382,10 @@ header{
 	gap: 50px;
 }
 
+.row .left .WA_logo2{
+	display: none;
+}
+
 
 @media (max-width: 991px){
 	.row{
