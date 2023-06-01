@@ -418,34 +418,31 @@ header{
 	.WA_phoneNo{
 		font-size: 13px;
 	}
-	
-@media (max-width: 460px){
 
-	.small-wd{
-		font-size: 12px;
-	}
+	@media (max-width: 460px){
 
-	.contact-us h1{
-		font-size: 40px;
-	}
+		.small-wd{
+			font-size: 12px;
+		}
 
-	.row .left .WA_logo{
-		display: none;
-	}
+		.contact-us h1{
+			font-size: 40px;
+		}
 
-	.row .left .WA_logo2{
-		display: block;
-	}
+		.row .left .WA_logo{
+			display: none;
+		}
 
-	.row .right{
-		width: 340px;
-	}
+		.row .left .WA_logo2{
+			display: block;
+		}
+
+		.row .right{
+			width: 340px;
+		}
 
 		
-}
-	
-
-
+	}
 	
 }
 
