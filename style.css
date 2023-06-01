@@ -344,7 +344,7 @@ header{
 }
 
 .row .left{
-	display: block;
+	display: inline-block;
 	line-height: 50px;
 	align-items: center;
 }
@@ -414,6 +414,33 @@ header{
 	.WA_phoneNo{
 		font-size: 13px;
 	}
+	
+@media (max-width: 460px){
+
+	.small-wd{
+		font-size: 12px;
+	}
+
+	.contact-us h1{
+		font-size: 40px;
+	}
+
+	.row .left .WA_logo{
+		display: none;
+	}
+
+	.row .left .WA_logo2{
+		display: block;
+	}
+
+	.row .right{
+		width: 340px;
+	}
+
+		
+}
+	
+
 
 	
 }
